@@ -479,7 +479,7 @@ class Bot(commands.Bot):
 
     def __init__(self):
 
-        super().__init__(token='ztq4zovicq98m596o13o2m9i12prbz', prefix='!', initial_channels=["moxxgoblin"])
+        super().__init__(token='insert access token from here https://twitchtokengenerator.com/', prefix='!', initial_channels=["moxxgoblin"])
 
     async def event_ready(self):
         print(f'Logged in as | {self.nick}')
